@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
-import './App.css'; // Assuming your CSS is correct
+import './App.css'; 
 
 // Refactored React Component
 function App() {
@@ -240,6 +240,7 @@ function App() {
             <button className="expand-all-btn" onClick={toggleAll}>
                 {allExpanded ? 'Collapse All Weeks' : 'Expand All Weeks'}
             </button>
+            <a className='Link-NKO' href='https://nkogallardo.link'>NKO_Gallardo</a>
             
             <div className="timer-container">
                 <h2>⏱️ Workout Timer</h2>
